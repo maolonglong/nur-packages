@@ -14,6 +14,7 @@
   modules = import ./modules; # Darwin modules
   overlays = import ./overlays; # nixpkgs overlays
 
+  fx = pkgs.callPackage ./pkgs/fx { };
   gofumpt = pkgs.callPackage ./pkgs/gofumpt { };
   gosimports = pkgs.callPackage ./pkgs/gosimports { };
   skywalking-eyes = pkgs.callPackage ./pkgs/skywalking-eyes { };
