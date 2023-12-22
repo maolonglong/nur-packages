@@ -18,6 +18,7 @@ buildGoModule rec {
 
   vendorHash = "sha256-kE6JotKP3YQ0B3HvyNU3fTvuwbnqTW8cwGVBYpiBvso=";
 
+  buildInputs = [ nodejs-slim ];
   nativeBuildInputs = [ makeWrapper ];
 
   ldflags = [ "-s" "-w" ];
