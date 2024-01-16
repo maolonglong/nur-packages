@@ -5,13 +5,13 @@
 }:
 buildGoModule {
   pname = "trash";
-  version = "b889588";
+  version = "dcabfbc";
 
   src = fetchFromGitHub {
     owner = "maolonglong";
     repo = "trash";
-    rev = "b8895889ae80f3bb1efe9ecde85ed3220842e668";
-    hash = "sha256-vmmxp0Wy8yenlHlDBBOQtiVjYiPPMv7yVfifDYAmXis=";
+    rev = "dcabfbcfe5bb5b7ada788d797450c364f7d9d35e";
+    hash = "sha256-MG1KQy8mOFemHOf+uswLye7Pkxq90nYTICFxezq9xEE=";
   };
 
   vendorHash = "sha256-3PnXB8AfZtgmYEPJuh0fwvG38dtngoS/lxyx3H+rvFs=";
