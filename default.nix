@@ -18,4 +18,5 @@
   gofumpt = pkgs.callPackage ./pkgs/gofumpt { };
   gosimports = pkgs.callPackage ./pkgs/gosimports { };
   skywalking-eyes = pkgs.callPackage ./pkgs/skywalking-eyes { };
+  trash = pkgs.callPackage ./pkgs/trash { };
 }
