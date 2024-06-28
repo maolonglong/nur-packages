@@ -1,5 +1,5 @@
 {
-  # Add your Darwin modules here
+  # Add your NixOS modules here
   #
   # my-module = ./my-module;
 }
