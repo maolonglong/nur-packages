@@ -4,7 +4,7 @@
   fetchFromGitHub,
 }:
 stdenv.mkDerivation {
-  pname = "catppuccin-starship";
+  pname = "catppuccin_theme_starship";
   version = "unstable-2024-05-24";
 
   src = fetchFromGitHub {
