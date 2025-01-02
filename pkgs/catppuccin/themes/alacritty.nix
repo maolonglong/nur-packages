@@ -5,13 +5,13 @@
 }:
 stdenv.mkDerivation {
   pname = "catppuccin_theme_alacritty";
-  version = "unstable-2024-04-09";
+  version = "unstable-2024-10-28";
 
   src = fetchFromGitHub {
     owner = "catppuccin";
     repo = "alacritty";
-    rev = "94800165c13998b600a9da9d29c330de9f28618e";
-    hash = "sha256-Pi1Hicv3wPALGgqurdTzXEzJNx7vVh+8B9tlqhRpR2Y=";
+    rev = "f6cb5a5c2b404cdaceaff193b9c52317f62c62f7";
+    hash = "sha256-H8bouVCS46h0DgQ+oYY8JitahQDj0V9p2cOoD4cQX+Q=";
   };
 
   installPhase = ''
