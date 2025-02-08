@@ -12,5 +12,6 @@
   overlays = import ./overlays; # nixpkgs overlays
 
   catppuccinThemes = pkgs.callPackage ./pkgs/catppuccin/themes {};
+  gotosocial = pkgs.callPackage ./pkgs/gotosocial {};
   skywalking-eyes = pkgs.callPackage ./pkgs/skywalking-eyes {};
 }

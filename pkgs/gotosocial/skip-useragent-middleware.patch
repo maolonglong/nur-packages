@@ -1,0 +1,14 @@
+diff --git a/cmd/gotosocial/action/server/server.go b/cmd/gotosocial/action/server/server.go
+index dcd30a9b5..65ae196dd 100644
+--- a/cmd/gotosocial/action/server/server.go
++++ b/cmd/gotosocial/action/server/server.go
+@@ -438,7 +438,8 @@ func(context.Context, time.Time) {
+ 		// the logger, otherwise won't be accessible.
+ 		middleware.Logger(config.GetLogClientIP()),
+ 		middleware.HeaderFilter(state),
+-		middleware.UserAgent(),
++		// See https://github.com/snarfed/bridgy-fed/issues/1709#issuecomment-2613837266
++		// middleware.UserAgent(),
+ 		middleware.CORS(),
+ 		middleware.ExtraHeaders(),
+ 	}...)
