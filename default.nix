@@ -13,5 +13,6 @@
 
   catppuccinThemes = pkgs.callPackage ./pkgs/catppuccin/themes {};
   gotosocial = pkgs.callPackage ./pkgs/gotosocial {};
+  jetbrains-maple-mono = pkgs.callPackage ./pkgs/jetbrains-maple-mono {};
   skywalking-eyes = pkgs.callPackage ./pkgs/skywalking-eyes {};
 }
