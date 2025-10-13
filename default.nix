@@ -14,5 +14,4 @@
   catppuccinThemes = pkgs.callPackage ./pkgs/catppuccin/themes {};
   jetbrains-maple-mono = pkgs.callPackage ./pkgs/jetbrains-maple-mono {};
   shell-safe-rm = pkgs.callPackage ./pkgs/shell-safe-rm {};
-  skywalking-eyes = pkgs.callPackage ./pkgs/skywalking-eyes {};
 }
