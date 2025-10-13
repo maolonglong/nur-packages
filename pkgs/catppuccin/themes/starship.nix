@@ -10,8 +10,8 @@ stdenv.mkDerivation {
   src = fetchFromGitHub {
     owner = "catppuccin";
     repo = "starship";
-    rev = "ca2fb0600730fd3958a2cb4d4ca97c401877b365";
-    hash = "sha256-KzXO4dqpufxTew064ZLp3zKIXBwbF8Bi+I0Xa63j/lI=";
+    rev = "5906cc369dd8207e063c0e6e2d27bd0c0b567cb8";
+    hash = "sha256-FLHjbClpTqaK4n2qmepCPkb8rocaAo3qeV4Zp1hia0g=";
   };
 
   installPhase = ''

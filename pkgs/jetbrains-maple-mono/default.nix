@@ -6,10 +6,10 @@
 }:
 stdenvNoCC.mkDerivation rec {
   pname = "jetbrains-maple-mono";
-  version = "1.2304.73";
+  version = "1.2304.77";
   src = fetchurl {
     url = "https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono/releases/download/${version}/JetBrainsMapleMono-XX-XX-XX.zip";
-    hash = "sha256-ER1kXVqmejJ02GLsQBeMItZqA3mu8OExzaHK02PFEAQ=";
+    hash = "sha256-AgoeXPmITNlqCnmGNaqE0Il0npHbe5TMyKoyvEoaI6U=";
   };
 
   sourceRoot = ".";
